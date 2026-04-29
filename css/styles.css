@@ -13,10 +13,8 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  font-size: 36px;
-  font-weight: 400;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #2e2f42;
 }
 
 .section-title {
@@ -24,7 +22,6 @@ body {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .title {
@@ -40,4 +37,25 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+button {
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #fff;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+  color: #fff;
+}
+
+.link {
+  color: #434455;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
