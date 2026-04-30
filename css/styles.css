@@ -1,4 +1,4 @@
-.visually-hidden {
+.advantages .section-title {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -13,8 +13,9 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -22,6 +23,18 @@ body {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .title {
@@ -31,12 +44,28 @@ body {
   letter-spacing: 0.02em;
 }
 
+.advantages .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
 .title .text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  text-align: center;
 }
 
 .button {
@@ -45,8 +74,8 @@ body {
   color: #fff;
 }
 
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
   color: #fff;
 }
